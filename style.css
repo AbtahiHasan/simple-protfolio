@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+body {
+  background: #23272F;
+}
+.header {
+    width: 100%;
+    background: #374151;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.logo {
+    display: none;
+}
+.navlink {
+    display: flex;
+    justify-content: space-between;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-link ul {
+    list-style: none;
+}
+.social-link ul li {
+    display: inline;
+    margin: 0 5px;
+}
+.social-link ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact-me {
+    display: flex;
+    align-items: center;
+}
+.contact-btn {
+    background: #149ECA;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.toggle-icon {
+    display: none;
+}
+.web-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.web-body .profile {
+    width: 70%;
+    box-shadow: 3px 3px 7px rgba(20, 158, 202, 0.2),-3px -3px 7px rgba(20, 158, 202, 0.2);
+    border-radius: 50%;
+    margin-left: 3.8rem;
+}
+
+
+.web-body .profile img{
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(20, 158, 202, 0.2),-3px -3px 15px rgba(20, 158, 202, 0.2);
+    width: 100%;
+}
+.web-body .content {
+    text-align: left;
+}
+.web-body .content h2 {
+    text-align: left;
+    color: #149ECA;
+    font-size: 5rem;
+}
+.web-body .content h3 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.web-body .content span {
+    font-size: 1.5rem;
+    color: #B3B3B3;
+    margin-top: 2rem;
+}
+.service-area {
+    width: 100%;
+    margin: auto;
+}
+.service-area h2 {
+    color: #ffffff;
+    text-align: center;
+}
+.service-area h2 span {
+ color: #149ECA;
+ display: inline;
+}
+.service-area span {
+    color: #B3B3B3;
+    display: block;
+    text-align: center;
+    margin-top: .5rem;
+}
+.service-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.service-card .card {
+    width: 30%;
+    background: #374151;
+    padding: 1rem;
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to right, #149ECA, #b3b3b3, #EE37AC);
+    border-image-slice: 1;
+    margin: .7rem;
+    
+}
+.service-card .card h2 {
+    text-align: left;
+    margin: .9rem 0;
+}
+.into-area {
+    background: #ffffff;
+    padding: 1.5rem;
+}
+.text-contenet {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.text-contenet .name {
+    width: 30%;
+    font-size: 3.5rem;
+}
+.text-contenet .information {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.text-contenet .information .info {
+    display: flex;
+    justify-content: space-between;
+}
+.text-contenet .information .info span{
+    text-align: justify;
+    margin: .7rem;
+}
+.done-project {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12rem;
+    margin-top: 2.5rem;
+}
+.done-project .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.done-project .stat-number p{
+    font-size: .9rem;
+}
+.my-process .container .left-area {
+    width: 50%;
+    margin: 3rem;
+    margin-top: -13rem;    
+}
+.my-process .container .left-area .title h2{
+   font-size: 2rem;
+   color: #ffffff;
+   line-height: 3rem;
+}
+.my-process .container .left-area .title h2 span {
+    color: #149ECA;
+}
+.my-process .container .left-area span {
+    color: #ffffff;
+    margin: 2rem 0;
+}
+.my-process .container .left-area .call-btn {
+    padding: 1rem;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, #149ECA, #055af8, #1d91b8, #a745ce, #00bfff, #03bbd3);
+    width: 12rem;
+    margin-top: .6rem;
+}
+.my-process .container .left-area .call-btn span {
+    font-weight: 900;
+    background: #fff;
+    padding: .5rem;
+    color: #000000;
+    border-radius: 50%;
+}
+.my-process .container .left-area .call-btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.right-are {
+    display: flex;
+    flex-direction: column;
+    background: #149ECA;
+}
+.right-are .card{
+    background: #ffffff;
+    display: flex;
+    padding: 1rem;
+    width: 90%;
+    margin: .8rem 2rem;
+}
+.right-are .card .count {
+    padding: 1.2rem 1.8rem;
+    background: #149ECA;
+    border-radius: 50%;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.testimonials {
+    width: 100%;
+    background: #ffffff;
+    padding-top: 1.5rem;
+}
+.testi-container {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+.testimonials h2 {
+    text-align: center;
+    margin: 1rem 0;
+    color: #149ECA;
+    font-size: 1.7rem;
+}
+
+.testimonials span {
+    color: #374151;
+    text-align: center;
+    display: block;
+}
+.testimonials .review-cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.testimonials .review-cards .card {
+    width: 100%;
+    background: #374151;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: .3rem;
+}
+.testimonials .review-cards .card h2{
+    color: #ffffff;
+}
+.testimonials .review-cards .card span{
+    color: #ffffff;
+}
+.cllient {
+    display: flex;
+    margin-top: 1rem;
+}
+.cllient img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.cllient .info {
+    margin-left: .5rem;
+    text-align: left;
+}
+.cllient .info h3{
+    color: #ffffff;
+}
+.slider {
+    display: none;
+}
+.right, .left {
+    display: flex;
+    align-items: center;
+}
+.right img, .left img {
+    background: #149ECA;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+
+}
+.container .contact {
+    width: 45%;
+    margin-top: -6rem;
+}
+.container .contact .email, .phone {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+.container .contact .email span, .phone span{
+    color: #ffffff;
+    margin-left: .3rem;
+}
+.container .pages-link ul{
+    list-style: none;
+    margin: 0 1.8rem;
+    margin-top: 2.5rem;    
+}
+.container .pages-link ul li{
+    line-height: 1.8rem;
+}
+.container .pages-link ul li b{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.container .pages-link ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.container .pages-link ul li a:hover{
+    color: #1e82c5;
+    text-decoration: underline;
+}
+.container .social {
+    margin: 0 1.8rem;
+    margin-top: 2.5rem;
+}
+.container .social ul{
+    list-style: none;
+    margin-top: -4.4rem;
+}
+.social ul li{
+    line-height: 1.8rem;
+}
+.container .social ul li b{
+    display: block;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.container .social ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.container .social ul li a:hover{
+    color: #1e82c5;
+    text-decoration: underline;
+}
+.container .address {
+    margin: 0 1.8rem;
+    margin-top: -7.5rem;
+}
+.container .address ul{
+    list-style: none;
+}
+.container .address ul li{
+    color: #ffffff;
+    line-height: 1.8rem;
+}
+.cradit-area {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+.cradit-area hr{
+    margin: .5rem;
+    height: .5px;
+}
+.cradit-area span {
+    color: #ffffff;
+    margin-top: .5rem;
+    padding: .5rem;
+}
