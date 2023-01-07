@@ -1,7 +1,7 @@
 //select element
 let toggleIcon = document.querySelector('.toggle-icon');
-let header = document.querySelector('.header');
+let navlink = document.querySelector('.navlink');
 
 toggleIcon.onclick = () => {
-    header.classList.toggle("active");
+    navlink.classList.toggle("active");
 }

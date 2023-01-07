@@ -1,0 +1,115 @@
+@media screen and (max-width: 650px) {
+  .text-logo {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+  .header .navlink {
+    display: none;
+  }
+  .header .navlink.active {
+    display: block;
+    width: 100%;
+    height: 14rem;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: #000;
+  }
+  .header .navlink.active .social-link ul li {
+    display: block;
+    line-height: 40px;
+    text-align: center;
+  }
+  .header .container {
+    align-items: flex-start;
+  }
+  .header.active .navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .header.active .navlink .social-link ul li {
+    display: block;
+    text-align: center;
+    line-height: 1.8rem;
+  }
+  .header.active .navlink .contact-me {
+    margin-top: 9.5rem;
+    margin-left: -6.1rem;
+  }
+  .toggle-icon {
+    display: block;
+    margin-top: 1.2rem;
+  }
+  .web-body {
+    margin-top: 7rem;
+    flex-wrap: wrap;
+  }
+  .web-body .profile {
+    width: 100%;
+    margin: 5rem;
+  }
+  .web-body .content {
+    width: 100%;
+  }
+  .service-area {
+    margin-top: 5rem;
+  }
+  .service-card {
+    grid-template-columns: 1fr;
+  }
+  .text-contenet {
+    flex-wrap: wrap;
+  }
+  .text-contenet .name {
+    width: 100%;
+  }
+  .text-contenet .name h2 {
+    display: block;
+    text-align: center;
+  }
+  .my-process {
+    margin-top: 15rem;
+  }
+  .my-process .container {
+    flex-wrap: wrap;
+  }
+  .my-process .container .left-area {
+    width: 100%;
+  }
+  .right-are {
+    width: 100%;
+  }
+  .footer .container {
+    flex-wrap: wrap;
+    margin-top: 6rem;
+  }
+  .footer .container .contact {
+    width: 100%;
+  }
+  .container .pages-link {
+    width: 100%;
+  }
+  .container .social {
+    width: 100%;
+    margin-top: 6rem;
+  }
+  .container .address {
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+  .testimonials {
+    display: block;
+  }
+  .testimonials .review-cards .card {
+    width: 100%;
+  }
+  .cradit-area span {
+    display: block;
+    text-align: center;
+  }
+}
